@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#job-description {
+  white-space: pre-wrap;
+  font-family: 'poppins';
+  font-size: medium;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 0.2rem 0;
+  padding-top: 2rem;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.home {
+  padding: 2rem;
+}
+
+.job-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.job-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: rgba(50, 50, 93, 0.164) 0px 6px 12px -2px, rgba(0, 0, 0, 0.147) 0px 3px 7px -3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.job-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.164) 0px 6px 12px -2px, rgba(0, 0, 0, 0.147) 0px 3px 7px -3px;
+  transform: scale(1.03);
+  background-color: #595959;
+  color: white;
+  cursor: pointer;
+}
+
+.job-card:hover .view-details-link {
+  color: white;
+}
+
+.job-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.job-details {
+  padding: 2rem;
+  background: white;
+}
+
+.job-details a {
+  color: blue;
+  text-decoration: underline;
+}
